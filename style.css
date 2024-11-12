@@ -258,20 +258,20 @@ p {
 
 }
 
-.annoucements-container div{
+.annoucements-container article{
     box-shadow: 0 10px 0 -10px inset rgb(55, 55, 55);
     margin: 1rem 0 4rem 0;
 }
 
-.annoucements-container div:last-of-type {
+.annoucements-container article:last-of-type {
     margin: 1rem 0 0 0;
 }
 
-.annoucements div:last-of-type::after {
+.annoucements article:last-of-type::after {
     display: none;
 }
 
-.annoucements-container div::after {
+.annoucements-container article::after {
     content: "";
     width: 85%;
     height: 1px;

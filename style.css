@@ -207,7 +207,7 @@ p {
     gap: 2rem;
 }
 
-.projects-container div {
+.projects-container article {
     background-color: white;
     padding: 0 2rem 2rem 2rem;
     border-radius: 10px;
